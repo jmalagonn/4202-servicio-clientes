@@ -16,11 +16,11 @@ Descargar los codigos y ejecutar en el editor de su preferencia y en cada uno re
 - py -m pip --version
 - py -m pip install --upgrade pip
   
-# crear entorno virtual
+### crear entorno virtual
 - py -m venv venv
 - .\venv\Scripts\activate
 
-# ejecutar los requerimientos
+### ejecutar los requerimientos
 - pip install -r requirements.txt  
 
 
@@ -37,7 +37,7 @@ Descargar los codigos y ejecutar en el editor de su preferencia y en cada uno re
 - flask run --port=5001
 - flask run --port=5002 (servicio de respaldo)
 
-## Simular solicitudes
+# Simular solicitudes
 
-- Luego ejecutar este comando 
+- Luego ejecutar el script para simular solicitudes ubicado en el repositorio del gateway:
 - node experimento1.js
