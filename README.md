@@ -36,7 +36,7 @@ Descargar los codigos y ejecutar en el editor de su preferencia y en cada uno re
 
 ## Servicio de Autenticación
 ### Descargar código 
-- [https://github.com/jmalagonn/4202-servicio-clientes](https://github.com/jmalagonn/4202-users-service)
+- https://github.com/jmalagonn/4202-users-service
 - flask run --port=5002
 
 
