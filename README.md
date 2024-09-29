@@ -1,6 +1,4 @@
 # 4202-Grupo4-ArquitecturasAgiles
-Instrucciones de Ejecucion
-Para esta semana estaremos realizando el experimento nuemero 1 que aplica las tacticas que favorece la disponibilidad sobre un servicio que detectan las fallas de conexión y las enmascaran basados en tácticas de redundancia y reintento de conexión.​
 
 ## Integrantes
 | Nombre | Email |
@@ -29,15 +27,14 @@ Descargar los codigos y ejecutar en el editor de su preferencia y en cada uno re
 - https://github.com/saperezr/ApiGateway
 - flask run --port=5000
 
-# Servidor de cliente
+# Servicio de clientes
 
 ## Descargar código 
 
 - https://github.com/jmalagonn/4202-servicio-clientes
 - flask run --port=5001
-- flask run --port=5002 (servicio de respaldo)
 
-# Simular solicitudes
-
-- Luego ejecutar el script para simular solicitudes ubicado en el repositorio del gateway:
-- node experimento1.js
+# Servicio de Autenticación
+## Descargar código 
+- [https://github.com/jmalagonn/4202-servicio-clientes](https://github.com/jmalagonn/4202-users-service)
+- flask run --port=5002
